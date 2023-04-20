@@ -47,7 +47,7 @@
                 />
             </div>
             <button onClick={reset}>Reset</button>
-            <button onClick={onFlip}>Flipped</button>
+            <button onClick={onFlip}>{flipped ? "Turn back" : "Invert"}</button>
         </div >);
     }
     ReactDOM.render(<App />, root)
